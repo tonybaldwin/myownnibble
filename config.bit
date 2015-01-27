@@ -1,0 +1,16 @@
+<?php
+
+$theme = array
+(
+	'name'=>'MyOwn',
+	'description'=>'Official MyOwnSite Nibbleblog theme',
+	'notes'=>'Disqus and Facebook commments supported',
+	'author'=>'Tony Baldwin',
+	'version'=>'4.0',
+	'last_update'=>'21/01/2014', // dd/mm/yyyy
+	'url'=>'http://www.nibbleblog.com', // http://www.myownsite.me
+	'template'=>array('blog'=>'default.bit', 'post'=>'default.bit', 'page'=>'default.bit'),
+	'version_supported'=>array('4.0','4.0.1') // Nibbleblog version supported
+);
+
+?>
