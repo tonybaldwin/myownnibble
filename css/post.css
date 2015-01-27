@@ -18,12 +18,12 @@ POST :: Head
 article.post	header	h1.post-title {
 	font-size: 2em;
 	margin: 0;
-	color: #2986D2;
+	color: #C06107!important;
 	font-weight: normal;
 }
 
 article.post	header	h1.post-title	a {
-	color: #2986D2;
+	color: #C06107;
 }
 
 article.post	header	h1.post-title	a:hover {
@@ -32,7 +32,7 @@ article.post	header	h1.post-title	a:hover {
 }
 
 article.post	header	div.post-published {
-	border-left: 32px solid #3399CC;
+	border-left: 3px solid #C06107;
 	color: #666666;
 	display: inline-block;
 	font-size: 0.9em;
@@ -40,7 +40,7 @@ article.post	header	div.post-published {
 }
 
 article.post	header	div.share_wrap {
-	border-left: 42px solid #00ADE8;
+	border-left: 4px solid #C06107;
 	color: #666666;
 	display: block;
 	padding-left: 8px;
@@ -222,6 +222,7 @@ POST :: Comments form
 
 #comment_form	h2 {
 	font-weight: normal;
+	color: #C06107!important;
 	margin: 10px 0;
 }
 
